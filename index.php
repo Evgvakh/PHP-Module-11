@@ -59,7 +59,7 @@ $and = $perem1 || $perem1;
                     <th scope="row">1</th>
                     <th scope="row">1</th>
                     <td><?php echo $not = var_dump(!$perem2); ?></td>
-                    <td><?php echo $not = var_dump($perem2||$perem1); ?></td>
+                    <td><?php echo $not = var_dump($perem2||$perem2); ?></td>
                     <td><?php echo $and4 = var_dump($perem2&&$perem2); ?></td>
                     <td><?php echo $xor4 = var_dump($perem2 xor $perem2); ?></td>
                 </tr>
